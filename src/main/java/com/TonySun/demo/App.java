@@ -1,7 +1,18 @@
 package com.TonySun.demo;
 
+import com.TonySun.demo.model.StudentModel;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Java");
+        SpringApplication.run(App.class,args);
+        //System.out.println("Hello Java");
     }
+
 }
