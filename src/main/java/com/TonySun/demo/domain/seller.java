@@ -2,9 +2,6 @@ package com.TonySun.demo.domain;
 
 import java.io.Serializable;
 
-/**
- * 商家实体类
- */
 public class Seller implements Serializable {
     private int sid;//商家id
     private String sname;//商家名称
