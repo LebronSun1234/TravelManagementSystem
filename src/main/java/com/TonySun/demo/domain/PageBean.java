@@ -54,4 +54,3 @@ public class PageBean<T> {
         this.list = list;
     }
 }
-
